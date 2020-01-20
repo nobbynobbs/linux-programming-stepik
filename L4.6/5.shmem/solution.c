@@ -72,7 +72,7 @@ int main(int argc, char *argv[]) {
   }
 
   // detach shmem
-  shmdt(my_ints); shmdt(reg2_ints); shmdt(reg2_ints);
+  shmdt(my_ints); shmdt(reg1_ints); shmdt(reg2_ints);
 
   // print new region key
   printf("%d\n", my_key);
